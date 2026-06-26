@@ -19,6 +19,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
+      # Keep the PandaKB Corne config on the pre-Zephyr-4.1 board names.
       revision: v0.3
       import: app/west.yml
     - name: hammerbeam-slideshow
